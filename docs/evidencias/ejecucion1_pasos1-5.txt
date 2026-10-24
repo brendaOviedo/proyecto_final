@@ -1,0 +1,287 @@
+
+[AVISO] Se creó la base de datos con los datos iniciales.
+Clientes cargados en el BST: 5 | Turnos pendientes en cola: 0
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  GESTIÓN DE CLIENTES
+========================================
+1. Registrar cliente
+2. Consultar todos los clientes (inorden BST)
+3. Buscar cliente por código (BST)
+4. Actualizar nombre y teléfono
+5. Activar / desactivar cliente
+0. Regresar al menú principal
+Seleccione una opción: Código del cliente a buscar: Código   Nombre                         Teléfono   Estado  
+------------------------------------------------------------
+1003     María García                   55501003   Activo  
+
+========================================
+  GESTIÓN DE CLIENTES
+========================================
+1. Registrar cliente
+2. Consultar todos los clientes (inorden BST)
+3. Buscar cliente por código (BST)
+4. Actualizar nombre y teléfono
+5. Activar / desactivar cliente
+0. Regresar al menú principal
+Seleccione una opción: 
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  GENERAR TURNO
+========================================
+Código del cliente: Código del servicio: [OK] Turno generado. Turno #1 | Cliente: 1001 - Ana López | Servicio: 1 - Información
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  GENERAR TURNO
+========================================
+Código del cliente: Código del servicio: [OK] Turno generado. Turno #2 | Cliente: 1002 - Carlos Pérez | Servicio: 2 - Entrega de documentos
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  GENERAR TURNO
+========================================
+Código del cliente: Código del servicio: [OK] Turno generado. Turno #3 | Cliente: 1003 - María García | Servicio: 1 - Información
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  GENERAR TURNO
+========================================
+Código del cliente: Código del servicio: [OK] Turno generado. Turno #4 | Cliente: 1004 - José Hernández | Servicio: 3 - Actualización de datos
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  GENERAR TURNO
+========================================
+Código del cliente: Código del servicio: [OK] Turno generado. Turno #5 | Cliente: 1005 - Luisa Morales | Servicio: 2 - Entrega de documentos
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  GENERAR TURNO
+========================================
+Código del cliente: Código del servicio: [ERROR] El cliente 1001 ya tiene un turno pendiente.
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  CANCELAR TURNO
+========================================
+Número de turno a cancelar: [OK] Turno cancelado. Turno #3 | Cliente: 1003 - María García | Servicio: 1 - Información
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+=========================================
+  TURNOS PENDIENTES (orden de atención)
+=========================================
+Turno  Cliente                  Servicio                     Estado     Generado            Atendido/Cancelado 
+---------------------------------------------------------------------------------------------------------------
+1      1001 - Ana López         1 - Información              PENDIENTE  2026-10-24 00:01:37 -                  
+2      1002 - Carlos Pérez      2 - Entrega de documentos    PENDIENTE  2026-10-24 00:01:37 -                  
+4      1004 - José Hernández    3 - Actualización de datos   PENDIENTE  2026-10-24 00:01:37 -                  
+5      1005 - Luisa Morales     2 - Entrega de documentos    PENDIENTE  2026-10-24 00:01:37 -                  
+Total: 4
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  ATENDER SIGUIENTE TURNO
+========================================
+[OK] Atendiendo: Turno #1 | Cliente: 1001 - Ana López | Servicio: 1 - Información
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+========================================
+  ATENDER SIGUIENTE TURNO
+========================================
+[OK] Atendiendo: Turno #2 | Cliente: 1002 - Carlos Pérez | Servicio: 2 - Entrega de documentos
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: 
+=========================================
+  TURNOS PENDIENTES (orden de atención)
+=========================================
+Turno  Cliente                  Servicio                     Estado     Generado            Atendido/Cancelado 
+---------------------------------------------------------------------------------------------------------------
+4      1004 - José Hernández    3 - Actualización de datos   PENDIENTE  2026-10-24 00:01:37 -                  
+5      1005 - Luisa Morales     2 - Entrega de documentos    PENDIENTE  2026-10-24 00:01:37 -                  
+Total: 2
+
+=======================================================
+  OFICINA DE SERVICIOS INTEGRALES - SISTEMA DE TURNOS
+=======================================================
+ 1. Gestión de clientes
+ 2. Gestión de servicios
+ 3. Generar turno
+ 4. Atender siguiente turno
+ 5. Cancelar turno
+ 6. Consultar turnos pendientes
+ 7. Consultar turnos atendidos
+ 8. Consultar turnos cancelados
+ 9. Historial de un cliente
+10. Resumen por servicio
+ 0. Salir
+Seleccione una opción: Gracias por utilizar el sistema. ¡Hasta pronto!

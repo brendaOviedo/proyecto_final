@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Sistema de Turnos",
+            "request": "launch",
+            "mainClass": "estudiantes.proyectofinal.Proyectofinal",
+            "projectName": "proyectofinal",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal"
+        }
+    ]
+}

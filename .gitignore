@@ -1,0 +1,21 @@
+# Compilación
+target/
+*.class
+
+# IDEs
+nbproject/private/
+nbactions.xml
+nb-configuration.xml
+.idea/
+*.iml
+.vscode/*
+!.vscode/launch.json
+
+# Archivos temporales de SQLite
+data/*.db-journal
+data/*.db-wal
+data/*.db-shm
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
