@@ -38,14 +38,11 @@
                     <release>21</release>
                 </configuration>
             </plugin>
-            <!-- Permite ejecutar con: mvn compile exec:java -->
+            <!-- Permite ejecutar con: mvn compile exec:java (toma la clase de la propiedad exec.mainClass) -->
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>exec-maven-plugin</artifactId>
                 <version>3.5.0</version>
-                <configuration>
-                    <mainClass>${exec.mainClass}</mainClass>
-                </configuration>
             </plugin>
             <!-- Genera un JAR ejecutable con dependencias: target/proyectofinal-1.0-SNAPSHOT-jar-with-dependencies.jar -->
             <plugin>
