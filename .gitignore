@@ -18,3 +18,6 @@ data/*.db-shm
 # Sistema operativo
 .DS_Store
 Thumbs.db
+
+# Entregables generados
+*.zip

@@ -1,5 +1,9 @@
 # Diagrama entidad-relación
 
+![Diagrama entidad-relación](diagramas/diagrama_entidad_relacion.png)
+
+Fuente Mermaid del diagrama:
+
 Base de datos SQLite: `data/turnos.db` (script: `sql/crear_y_cargar.sql`).
 
 ```mermaid

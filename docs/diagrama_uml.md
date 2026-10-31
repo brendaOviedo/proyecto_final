@@ -1,5 +1,9 @@
 # Diagrama UML de clases
 
+![Diagrama UML de clases](diagramas/diagrama_uml_clases.png)
+
+Fuente Mermaid del diagrama:
+
 > GitHub y VS Code (con la extensión *Markdown Preview Mermaid Support*) muestran este diagrama renderizado.
 
 ```mermaid

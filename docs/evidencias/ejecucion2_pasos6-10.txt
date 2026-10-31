@@ -1,4 +1,3 @@
-
 Clientes cargados en el BST: 5 | Turnos pendientes en cola: 2
 
 =======================================================
@@ -15,14 +14,15 @@ Clientes cargados en el BST: 5 | Turnos pendientes en cola: 2
  9. Historial de un cliente
 10. Resumen por servicio
  0. Salir
-Seleccione una opción: 
+Seleccione una opción: 6
+
 =========================================
   TURNOS PENDIENTES (orden de atención)
 =========================================
 Turno  Cliente                  Servicio                     Estado     Generado            Atendido/Cancelado 
 ---------------------------------------------------------------------------------------------------------------
-4      1004 - José Hernández    3 - Actualización de datos   PENDIENTE  2026-10-24 00:01:37 -                  
-5      1005 - Luisa Morales     2 - Entrega de documentos    PENDIENTE  2026-10-24 00:01:37 -                  
+4      1004 - José Hernández    3 - Actualización de datos   PENDIENTE  2026-10-30 20:46:02 -                  
+5      1005 - Luisa Morales     2 - Entrega de documentos    PENDIENTE  2026-10-30 20:46:06 -                  
 Total: 2
 
 =======================================================
@@ -39,7 +39,8 @@ Total: 2
  9. Historial de un cliente
 10. Resumen por servicio
  0. Salir
-Seleccione una opción: 
+Seleccione una opción: 4
+
 ========================================
   ATENDER SIGUIENTE TURNO
 ========================================
@@ -59,7 +60,8 @@ Seleccione una opción:
  9. Historial de un cliente
 10. Resumen por servicio
  0. Salir
-Seleccione una opción: 
+Seleccione una opción: 4
+
 ========================================
   ATENDER SIGUIENTE TURNO
 ========================================
@@ -79,7 +81,8 @@ Seleccione una opción:
  9. Historial de un cliente
 10. Resumen por servicio
  0. Salir
-Seleccione una opción: 
+Seleccione una opción: 4
+
 ========================================
   ATENDER SIGUIENTE TURNO
 ========================================
@@ -99,14 +102,16 @@ Seleccione una opción:
  9. Historial de un cliente
 10. Resumen por servicio
  0. Salir
-Seleccione una opción: 
+Seleccione una opción: 9
+
 ========================================
   HISTORIAL DE UN CLIENTE
 ========================================
-Código del cliente: Cliente: 1003 - María García (Tel. 55501003, Activo)
+Código del cliente: 1003
+Cliente: 1003 - María García (Tel. 55501003, Activo)
 Turno  Cliente                  Servicio                     Estado     Generado            Atendido/Cancelado 
 ---------------------------------------------------------------------------------------------------------------
-3      1003 - María García      1 - Información              CANCELADO  2026-10-24 00:01:37 2026-10-24 00:01:37
+3      1003 - María García      1 - Información              CANCELADO  2026-10-30 20:45:57 2026-10-30 20:46:14
 Total: 1
 
 =======================================================
@@ -123,7 +128,8 @@ Total: 1
  9. Historial de un cliente
 10. Resumen por servicio
  0. Salir
-Seleccione una opción: 
+Seleccione una opción: 10
+
 ========================================
   RESUMEN POR SERVICIO
 ========================================
@@ -149,4 +155,5 @@ Total                                 0          4          1       5
  9. Historial de un cliente
 10. Resumen por servicio
  0. Salir
-Seleccione una opción: Gracias por utilizar el sistema. ¡Hasta pronto!
+Seleccione una opción: 0
+Gracias por utilizar el sistema. ¡Hasta pronto!

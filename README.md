@@ -2,15 +2,11 @@
 
 Proyecto final de **Programación II**. Aplicación de consola en Java 21 para administrar la atención de clientes en una oficina de servicios: registro de clientes y servicios, generación de turnos, atención en orden de llegada (FIFO), cancelación y reportes, con persistencia en SQLite mediante JDBC.
 
-## Integrantes
+## Grupo 7 — Integrantes
 
-| Nombre | Carné | Responsabilidad principal |
-|---|---|---|
-| _(Nombre integrante 1)_ | _(Carné)_ | Clientes y BST |
-| _(Nombre integrante 2)_ | _(Carné)_ | Turnos y cola enlazada |
-| _(Nombre integrante 3)_ | _(Carné)_ | Servicios, persistencia y reportes |
-
-Todos los integrantes participaron en la integración, las pruebas y la documentación.
+| Nombre | Carné |
+|---|---|
+| Brenda Maribel Oviedo Catalan | 6691-25-3920 |
 
 ## Repositorio
 
@@ -78,11 +74,16 @@ proyectofinal/
 ├── pom.xml
 ├── data/turnos.db
 ├── sql/crear_y_cargar.sql
+├── nbactions.xml              Acciones Run/Debug para NetBeans
+├── .vscode/launch.json        Configuración de ejecución para VS Code
 ├── docs/
-│   ├── diagrama_uml.md        Diagrama UML de clases (Mermaid)
-│   ├── diagrama_er.md         Diagrama entidad-relación (Mermaid)
-│   ├── informe.md             Resultado de la secuencia de comprobación
-│   └── evidencias/            Salidas de consola de la comprobación
+│   ├── diagramas/             Diagramas UML de clases y entidad-relación (PNG)
+│   ├── diagrama_uml.md        Fuente Mermaid del diagrama UML
+│   ├── diagrama_er.md         Fuente Mermaid del diagrama ER
+│   ├── Informe_Grupo07_AtencionTurnos.pdf   Informe de la secuencia de comprobación
+│   ├── informe.md             El mismo informe en Markdown
+│   ├── capturas/              Capturas principales de la comprobación
+│   └── evidencias/            Transcripción completa de la consola
 └── src/main/java/estudiantes/proyectofinal/
     ├── Proyectofinal.java     Punto de entrada (arma dependencias y abre el menú)
     ├── modelo/                Cliente, Servicio, Turno, EstadoTurno, ResumenServicio
@@ -107,14 +108,18 @@ proyectofinal/
 
 ## Distribución del trabajo
 
-| Integrante | Aportes |
-|---|---|
-| Integrante 1 | `Cliente`, `NodoArbol`, `ArbolClientes`, `ClienteDAO`/`ClienteDAOSQLite`, `ClienteService`, `MenuClientes`. |
-| Integrante 2 | `Turno`, `EstadoTurno`, `Nodo`, `ColaTurnos`, `TurnoDAO`/`TurnoDAOSQLite`, `TurnoService`, opciones de turnos del menú principal. |
-| Integrante 3 | `Servicio`, `ServicioDAO`/`ServicioDAOSQLite`, `ConexionSQLite`, `InicializadorBD`, script SQL, `ReporteService`, `MenuServicios`, diagramas. |
+El grupo está conformado por una sola integrante, que desarrolló todos los módulos:
+
+| Área | Componentes | Responsable |
+|---|---|---|
+| Clientes y BST | `Cliente`, `NodoArbol`, `ArbolClientes`, `ClienteDAO`/`ClienteDAOSQLite`, `ClienteService`, `MenuClientes` | Brenda Maribel Oviedo Catalan |
+| Turnos y cola enlazada | `Turno`, `EstadoTurno`, `Nodo`, `ColaTurnos`, `TurnoDAO`/`TurnoDAOSQLite`, `TurnoService`, opciones de turnos del menú | Brenda Maribel Oviedo Catalan |
+| Servicios, persistencia y reportes | `Servicio`, `ServicioDAO`/`ServicioDAOSQLite`, `ConexionSQLite`, `InicializadorBD`, script SQL, `ReporteService`, `MenuServicios` | Brenda Maribel Oviedo Catalan |
+| Integración, pruebas y documentación | `Proyectofinal`, `MenuPrincipal`, diagramas, README e informe | Brenda Maribel Oviedo Catalan |
 
 ## Documentación
 
-- [Diagrama UML de clases](docs/diagrama_uml.md)
-- [Diagrama entidad-relación](docs/diagrama_er.md)
-- [Informe de la secuencia de comprobación](docs/informe.md)
+- Diagrama UML de clases: [imagen](docs/diagramas/diagrama_uml_clases.png) · [fuente Mermaid](docs/diagrama_uml.md)
+- Diagrama entidad-relación: [imagen](docs/diagramas/diagrama_entidad_relacion.png) · [fuente Mermaid](docs/diagrama_er.md)
+- Informe de la secuencia de comprobación: [PDF](docs/Informe_Grupo07_AtencionTurnos.pdf) · [Markdown](docs/informe.md)
+- Capturas principales: [`docs/capturas/`](docs/capturas)
